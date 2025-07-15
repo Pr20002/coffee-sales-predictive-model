@@ -29,8 +29,7 @@ y = df['total_sales']
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
+    X, y, test_size=0.2, random_state=42)
 
 #  Align original columns with test set for report formatting
 date_test = original_dates.loc[X_test.index]
