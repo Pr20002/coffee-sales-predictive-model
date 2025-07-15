@@ -1,0 +1,544 @@
+date,store_id,store_location,total_sales,num_transactions,total_items_sold,day_of_week
+2023-01-01,3,Astoria,868.4,190,277,Sunday
+2023-01-01,5,Lower Manhattan,788.35,176,255,Sunday
+2023-01-01,8,Hell's Kitchen,851.45,184,270,Sunday
+2023-01-02,3,Astoria,925.5,212,301,Monday
+2023-01-02,5,Lower Manhattan,649.05,159,217,Monday
+2023-01-02,8,Hell's Kitchen,828.8,195,272,Monday
+2023-01-03,3,Astoria,902.75,205,287,Tuesday
+2023-01-03,5,Lower Manhattan,756.0,166,241,Tuesday
+2023-01-03,8,Hell's Kitchen,906.25,211,295,Tuesday
+2023-01-04,3,Astoria,808.25,187,262,Wednesday
+2023-01-04,5,Lower Manhattan,630.2,140,208,Wednesday
+2023-01-04,8,Hell's Kitchen,781.65,170,256,Wednesday
+2023-01-05,3,Astoria,903.05,198,285,Thursday
+2023-01-05,5,Lower Manhattan,800.9,181,258,Thursday
+2023-01-05,8,Hell's Kitchen,714.9,168,235,Thursday
+2023-01-06,3,Astoria,716.05,152,224,Friday
+2023-01-06,5,Lower Manhattan,790.6,181,256,Friday
+2023-01-06,8,Hell's Kitchen,767.2,176,256,Friday
+2023-01-07,3,Astoria,807.3,184,257,Saturday
+2023-01-07,5,Lower Manhattan,788.25,156,219,Saturday
+2023-01-07,8,Hell's Kitchen,1024.1,222,323,Saturday
+2023-01-08,3,Astoria,793.15,161,227,Sunday
+2023-01-08,5,Lower Manhattan,972.55,205,302,Sunday
+2023-01-08,8,Hell's Kitchen,872.83,196,277,Sunday
+2023-01-09,3,Astoria,774.01,165,208,Monday
+2023-01-09,5,Lower Manhattan,1008.2,192,262,Monday
+2023-01-09,8,Hell's Kitchen,894.4,194,272,Monday
+2023-01-10,3,Astoria,947.0,210,305,Tuesday
+2023-01-10,5,Lower Manhattan,930.55,203,277,Tuesday
+2023-01-10,8,Hell's Kitchen,808.1,189,273,Tuesday
+2023-01-11,3,Astoria,740.15,162,229,Wednesday
+2023-01-11,5,Lower Manhattan,841.05,187,258,Wednesday
+2023-01-11,8,Hell's Kitchen,974.55,212,295,Wednesday
+2023-01-12,3,Astoria,660.7,144,206,Thursday
+2023-01-12,5,Lower Manhattan,915.1,211,302,Thursday
+2023-01-12,8,Hell's Kitchen,751.9,179,251,Thursday
+2023-01-13,3,Astoria,705.8,175,246,Friday
+2023-01-13,5,Lower Manhattan,965.2,193,295,Friday
+2023-01-13,8,Hell's Kitchen,1362.6,257,409,Friday
+2023-01-14,3,Astoria,763.7,157,213,Saturday
+2023-01-14,5,Lower Manhattan,775.0,179,232,Saturday
+2023-01-14,8,Hell's Kitchen,1143.81,241,326,Saturday
+2023-01-15,3,Astoria,1348.93,262,365,Sunday
+2023-01-15,5,Lower Manhattan,856.35,199,282,Sunday
+2023-01-15,8,Hell's Kitchen,962.43,202,280,Sunday
+2023-01-16,3,Astoria,1027.33,229,319,Monday
+2023-01-16,5,Lower Manhattan,850.68,192,259,Monday
+2023-01-16,8,Hell's Kitchen,951.15,206,277,Monday
+2023-01-17,3,Astoria,1075.4,209,297,Tuesday
+2023-01-17,5,Lower Manhattan,788.9,185,251,Tuesday
+2023-01-17,8,Hell's Kitchen,1421.5,138,214,Tuesday
+2023-01-18,3,Astoria,1064.03,214,295,Wednesday
+2023-01-18,5,Lower Manhattan,825.83,186,269,Wednesday
+2023-01-18,8,Hell's Kitchen,846.1,188,263,Wednesday
+2023-01-19,3,Astoria,1079.38,220,313,Thursday
+2023-01-19,5,Lower Manhattan,788.05,184,252,Thursday
+2023-01-19,8,Hell's Kitchen,1046.25,212,293,Thursday
+2023-01-20,3,Astoria,871.43,212,215,Friday
+2023-01-20,5,Lower Manhattan,791.55,168,268,Friday
+2023-01-20,8,Hell's Kitchen,940.75,198,284,Friday
+2023-01-21,3,Astoria,992.35,183,265,Saturday
+2023-01-21,5,Lower Manhattan,1015.0,181,295,Saturday
+2023-01-21,8,Hell's Kitchen,1075.5,233,318,Saturday
+2023-01-22,3,Astoria,742.8,166,240,Sunday
+2023-01-22,5,Lower Manhattan,1003.08,186,332,Sunday
+2023-01-22,8,Hell's Kitchen,621.45,139,196,Sunday
+2023-01-23,3,Astoria,928.3,202,292,Monday
+2023-01-23,5,Lower Manhattan,898.75,170,289,Monday
+2023-01-23,8,Hell's Kitchen,1026.1,217,304,Monday
+2023-01-24,3,Astoria,922.05,202,292,Tuesday
+2023-01-24,5,Lower Manhattan,1105.8,213,349,Tuesday
+2023-01-24,8,Hell's Kitchen,841.1,173,242,Tuesday
+2023-01-25,3,Astoria,942.0,216,314,Wednesday
+2023-01-25,5,Lower Manhattan,1063.85,187,334,Wednesday
+2023-01-25,8,Hell's Kitchen,840.7,180,258,Wednesday
+2023-01-26,3,Astoria,939.25,215,308,Thursday
+2023-01-26,5,Lower Manhattan,1067.35,186,324,Thursday
+2023-01-26,8,Hell's Kitchen,856.43,185,255,Thursday
+2023-01-27,3,Astoria,838.55,192,273,Friday
+2023-01-27,5,Lower Manhattan,1143.5,206,349,Friday
+2023-01-27,8,Hell's Kitchen,760.05,181,264,Friday
+2023-01-28,3,Astoria,733.25,168,244,Saturday
+2023-01-28,5,Lower Manhattan,604.2,140,201,Saturday
+2023-01-28,8,Hell's Kitchen,699.65,162,227,Saturday
+2023-01-29,3,Astoria,820.7,184,261,Sunday
+2023-01-29,5,Lower Manhattan,627.9,140,196,Sunday
+2023-01-29,8,Hell's Kitchen,612.15,135,195,Sunday
+2023-01-30,3,Astoria,870.6,172,242,Monday
+2023-01-30,5,Lower Manhattan,737.41,143,209,Monday
+2023-01-30,8,Hell's Kitchen,868.4,166,242,Monday
+2023-01-31,3,Astoria,801.5,165,219,Tuesday
+2023-01-31,5,Lower Manhattan,764.23,138,208,Tuesday
+2023-01-31,8,Hell's Kitchen,768.4,159,218,Tuesday
+2023-02-01,3,Astoria,833.7,188,272,Wednesday
+2023-02-01,5,Lower Manhattan,783.2,179,255,Wednesday
+2023-02-01,8,Hell's Kitchen,849.4,179,269,Wednesday
+2023-02-02,3,Astoria,944.8,210,302,Thursday
+2023-02-02,5,Lower Manhattan,678.15,159,225,Thursday
+2023-02-02,8,Hell's Kitchen,883.95,200,287,Thursday
+2023-02-03,3,Astoria,940.2,214,301,Friday
+2023-02-03,5,Lower Manhattan,755.25,170,242,Friday
+2023-02-03,8,Hell's Kitchen,896.0,202,291,Friday
+2023-02-04,3,Astoria,825.95,191,271,Saturday
+2023-02-04,5,Lower Manhattan,881.1,193,285,Saturday
+2023-02-04,8,Hell's Kitchen,844.65,200,278,Saturday
+2023-02-05,3,Astoria,871.25,208,283,Sunday
+2023-02-05,5,Lower Manhattan,724.1,164,232,Sunday
+2023-02-05,8,Hell's Kitchen,709.35,161,233,Sunday
+2023-02-06,3,Astoria,655.35,139,209,Monday
+2023-02-06,5,Lower Manhattan,751.9,168,239,Monday
+2023-02-06,8,Hell's Kitchen,796.15,182,264,Monday
+2023-02-07,3,Astoria,804.3,185,255,Tuesday
+2023-02-07,5,Lower Manhattan,737.0,158,222,Tuesday
+2023-02-07,8,Hell's Kitchen,893.25,203,292,Tuesday
+2023-02-08,3,Astoria,928.8,191,263,Wednesday
+2023-02-08,5,Lower Manhattan,883.7,199,283,Wednesday
+2023-02-08,8,Hell's Kitchen,949.93,209,298,Wednesday
+2023-02-09,3,Astoria,866.8,182,225,Thursday
+2023-02-09,5,Lower Manhattan,884.58,171,244,Thursday
+2023-02-09,8,Hell's Kitchen,859.25,209,292,Thursday
+2023-02-10,3,Astoria,868.0,199,297,Friday
+2023-02-10,5,Lower Manhattan,961.3,205,295,Friday
+2023-02-10,8,Hell's Kitchen,1072.3,231,326,Friday
+2023-02-11,3,Astoria,670.05,155,212,Saturday
+2023-02-11,5,Lower Manhattan,825.48,191,265,Saturday
+2023-02-11,8,Hell's Kitchen,1031.21,221,307,Saturday
+2023-02-12,3,Astoria,680.6,142,207,Sunday
+2023-02-12,5,Lower Manhattan,1087.6,234,339,Sunday
+2023-02-12,8,Hell's Kitchen,1125.8,231,326,Sunday
+2023-02-13,3,Astoria,641.9,149,212,Monday
+2023-02-13,5,Lower Manhattan,1018.43,212,329,Monday
+2023-02-13,8,Hell's Kitchen,1185.15,232,363,Monday
+2023-02-14,3,Astoria,747.05,151,210,Tuesday
+2023-02-14,5,Lower Manhattan,763.23,179,237,Tuesday
+2023-02-14,8,Hell's Kitchen,1163.65,257,349,Tuesday
+2023-02-15,3,Astoria,1254.95,262,375,Wednesday
+2023-02-15,5,Lower Manhattan,822.85,181,249,Wednesday
+2023-02-15,8,Hell's Kitchen,850.25,181,254,Wednesday
+2023-02-16,3,Astoria,1191.3,243,341,Thursday
+2023-02-16,5,Lower Manhattan,923.8,201,266,Thursday
+2023-02-16,8,Hell's Kitchen,908.23,195,265,Thursday
+2023-02-17,3,Astoria,967.6,214,298,Friday
+2023-02-17,5,Lower Manhattan,695.55,169,229,Friday
+2023-02-17,8,Hell's Kitchen,637.6,151,209,Friday
+2023-02-18,3,Astoria,1069.53,202,297,Saturday
+2023-02-18,5,Lower Manhattan,746.45,180,233,Saturday
+2023-02-18,8,Hell's Kitchen,1049.5,212,297,Saturday
+2023-02-19,3,Astoria,1164.4,250,342,Sunday
+2023-02-19,5,Lower Manhattan,891.0,200,275,Sunday
+2023-02-19,8,Hell's Kitchen,1164.2,242,331,Sunday
+2023-02-20,3,Astoria,760.23,205,209,Monday
+2023-02-20,5,Lower Manhattan,1056.75,204,336,Monday
+2023-02-20,8,Hell's Kitchen,1066.65,219,316,Monday
+2023-02-21,3,Astoria,870.48,168,238,Tuesday
+2023-02-21,5,Lower Manhattan,954.4,165,276,Tuesday
+2023-02-21,8,Hell's Kitchen,958.65,222,307,Tuesday
+2023-02-22,3,Astoria,1037.5,214,334,Wednesday
+2023-02-22,5,Lower Manhattan,1060.5,187,323,Wednesday
+2023-02-22,8,Hell's Kitchen,830.7,180,254,Wednesday
+2023-02-23,3,Astoria,904.5,200,283,Thursday
+2023-02-23,5,Lower Manhattan,952.73,178,311,Thursday
+2023-02-23,8,Hell's Kitchen,888.98,177,240,Thursday
+2023-02-24,3,Astoria,986.9,213,303,Friday
+2023-02-24,5,Lower Manhattan,1138.7,214,373,Friday
+2023-02-24,8,Hell's Kitchen,815.1,176,256,Friday
+2023-02-25,3,Astoria,813.55,185,266,Saturday
+2023-02-25,5,Lower Manhattan,1156.65,209,367,Saturday
+2023-02-25,8,Hell's Kitchen,853.35,182,255,Saturday
+2023-02-26,3,Astoria,1030.9,233,337,Sunday
+2023-02-26,5,Lower Manhattan,997.4,170,299,Sunday
+2023-02-26,8,Hell's Kitchen,928.45,198,269,Sunday
+2023-02-27,3,Astoria,931.85,208,301,Monday
+2023-02-27,5,Lower Manhattan,1469.25,268,434,Monday
+2023-02-27,8,Hell's Kitchen,758.9,187,272,Monday
+2023-02-28,3,Astoria,842.9,189,275,Tuesday
+2023-02-28,5,Lower Manhattan,719.0,155,232,Tuesday
+2023-02-28,8,Hell's Kitchen,749.2,167,237,Tuesday
+2023-03-01,3,Astoria,1021.1,229,328,Wednesday
+2023-03-01,5,Lower Manhattan,978.7,218,310,Wednesday
+2023-03-01,8,Hell's Kitchen,1040.45,214,330,Wednesday
+2023-03-02,3,Astoria,1088.4,243,352,Thursday
+2023-03-02,5,Lower Manhattan,886.9,202,280,Thursday
+2023-03-02,8,Hell's Kitchen,1020.75,228,331,Thursday
+2023-03-03,3,Astoria,1160.35,264,371,Friday
+2023-03-03,5,Lower Manhattan,957.25,217,311,Friday
+2023-03-03,8,Hell's Kitchen,1037.55,229,328,Friday
+2023-03-04,3,Astoria,1008.75,228,328,Saturday
+2023-03-04,5,Lower Manhattan,904.75,201,288,Saturday
+2023-03-04,8,Hell's Kitchen,868.4,195,281,Saturday
+2023-03-05,3,Astoria,1097.15,253,355,Sunday
+2023-03-05,5,Lower Manhattan,944.15,215,298,Sunday
+2023-03-05,8,Hell's Kitchen,904.0,207,299,Sunday
+2023-03-06,3,Astoria,732.75,169,231,Monday
+2023-03-06,5,Lower Manhattan,950.35,213,299,Monday
+2023-03-06,8,Hell's Kitchen,934.95,205,306,Monday
+2023-03-07,3,Astoria,921.3,212,293,Tuesday
+2023-03-07,5,Lower Manhattan,746.15,154,216,Tuesday
+2023-03-07,8,Hell's Kitchen,1136.05,263,374,Tuesday
+2023-03-08,3,Astoria,1209.08,241,332,Wednesday
+2023-03-08,5,Lower Manhattan,1130.1,239,350,Wednesday
+2023-03-08,8,Hell's Kitchen,1184.08,262,357,Wednesday
+2023-03-09,3,Astoria,908.83,199,249,Thursday
+2023-03-09,5,Lower Manhattan,1282.44,237,335,Thursday
+2023-03-09,8,Hell's Kitchen,1268.7,286,399,Thursday
+2023-03-10,3,Astoria,1081.2,230,327,Friday
+2023-03-10,5,Lower Manhattan,1108.2,236,340,Friday
+2023-03-10,8,Hell's Kitchen,1252.18,284,384,Friday
+2023-03-11,3,Astoria,995.25,201,295,Saturday
+2023-03-11,5,Lower Manhattan,1075.6,236,344,Saturday
+2023-03-11,8,Hell's Kitchen,1140.8,252,363,Saturday
+2023-03-12,3,Astoria,664.13,144,202,Sunday
+2023-03-12,5,Lower Manhattan,1146.15,257,375,Sunday
+2023-03-12,8,Hell's Kitchen,1278.05,266,370,Sunday
+2023-03-13,3,Astoria,846.1,199,282,Monday
+2023-03-13,5,Lower Manhattan,1340.65,262,405,Monday
+2023-03-13,8,Hell's Kitchen,1440.9,269,423,Monday
+2023-03-14,3,Astoria,966.55,183,257,Tuesday
+2023-03-14,5,Lower Manhattan,966.28,219,281,Tuesday
+2023-03-14,8,Hell's Kitchen,1379.83,289,380,Tuesday
+2023-03-15,3,Astoria,1417.45,283,398,Wednesday
+2023-03-15,5,Lower Manhattan,915.3,209,285,Wednesday
+2023-03-15,8,Hell's Kitchen,1005.28,229,317,Wednesday
+2023-03-16,3,Astoria,1149.13,258,359,Thursday
+2023-03-16,5,Lower Manhattan,1094.55,240,328,Thursday
+2023-03-16,8,Hell's Kitchen,1142.43,260,350,Thursday
+2023-03-17,3,Astoria,1440.45,296,408,Friday
+2023-03-17,5,Lower Manhattan,952.85,221,298,Friday
+2023-03-17,8,Hell's Kitchen,788.45,176,236,Friday
+2023-03-18,3,Astoria,1207.58,260,353,Saturday
+2023-03-18,5,Lower Manhattan,1037.53,231,311,Saturday
+2023-03-18,8,Hell's Kitchen,1163.25,240,337,Saturday
+2023-03-19,3,Astoria,1488.5,279,392,Sunday
+2023-03-19,5,Lower Manhattan,766.35,190,256,Sunday
+2023-03-19,8,Hell's Kitchen,1085.18,256,340,Sunday
+2023-03-20,3,Astoria,1113.08,280,285,Monday
+2023-03-20,5,Lower Manhattan,1035.1,209,352,Monday
+2023-03-20,8,Hell's Kitchen,1114.1,246,351,Monday
+2023-03-21,3,Astoria,835.85,171,236,Tuesday
+2023-03-21,5,Lower Manhattan,1057.25,186,319,Tuesday
+2023-03-21,8,Hell's Kitchen,1316.7,293,394,Tuesday
+2023-03-22,3,Astoria,1124.55,252,367,Wednesday
+2023-03-22,5,Lower Manhattan,1235.66,210,370,Wednesday
+2023-03-22,8,Hell's Kitchen,923.9,207,277,Wednesday
+2023-03-23,3,Astoria,1060.55,234,328,Thursday
+2023-03-23,5,Lower Manhattan,1158.25,223,387,Thursday
+2023-03-23,8,Hell's Kitchen,1142.33,237,325,Thursday
+2023-03-24,3,Astoria,1123.2,246,355,Friday
+2023-03-24,5,Lower Manhattan,1447.1,259,456,Friday
+2023-03-24,8,Hell's Kitchen,1015.9,213,300,Friday
+2023-03-25,3,Astoria,1025.75,237,337,Saturday
+2023-03-25,5,Lower Manhattan,1348.9,238,416,Saturday
+2023-03-25,8,Hell's Kitchen,1006.3,213,297,Saturday
+2023-03-26,3,Astoria,1208.65,268,391,Sunday
+2023-03-26,5,Lower Manhattan,1130.55,195,360,Sunday
+2023-03-26,8,Hell's Kitchen,971.63,208,287,Sunday
+2023-03-27,3,Astoria,1124.0,249,360,Monday
+2023-03-27,5,Lower Manhattan,1489.75,252,437,Monday
+2023-03-27,8,Hell's Kitchen,1060.6,263,380,Monday
+2023-03-28,3,Astoria,954.75,213,312,Tuesday
+2023-03-28,5,Lower Manhattan,945.25,207,305,Tuesday
+2023-03-28,8,Hell's Kitchen,892.55,206,280,Tuesday
+2023-03-29,3,Astoria,978.8,231,317,Wednesday
+2023-03-29,5,Lower Manhattan,840.3,194,274,Wednesday
+2023-03-29,8,Hell's Kitchen,672.9,157,221,Wednesday
+2023-03-30,3,Astoria,967.05,218,307,Thursday
+2023-03-30,5,Lower Manhattan,966.79,210,319,Thursday
+2023-03-30,8,Hell's Kitchen,998.98,211,291,Thursday
+2023-03-31,3,Astoria,915.15,210,292,Friday
+2023-03-31,5,Lower Manhattan,1049.53,202,304,Friday
+2023-03-31,8,Hell's Kitchen,923.4,203,290,Friday
+2023-04-01,3,Astoria,1316.5,302,433,Saturday
+2023-04-01,5,Lower Manhattan,1168.05,267,375,Saturday
+2023-04-01,8,Hell's Kitchen,1215.35,261,390,Saturday
+2023-04-02,3,Astoria,1351.35,294,430,Sunday
+2023-04-02,5,Lower Manhattan,1002.2,233,327,Sunday
+2023-04-02,8,Hell's Kitchen,1222.3,275,399,Sunday
+2023-04-03,3,Astoria,1333.4,298,429,Monday
+2023-04-03,5,Lower Manhattan,1127.55,259,366,Monday
+2023-04-03,8,Hell's Kitchen,1144.0,257,367,Monday
+2023-04-04,3,Astoria,1150.75,262,371,Tuesday
+2023-04-04,5,Lower Manhattan,1092.0,241,360,Tuesday
+2023-04-04,8,Hell's Kitchen,1084.55,250,355,Tuesday
+2023-04-05,3,Astoria,1242.15,290,400,Wednesday
+2023-04-05,5,Lower Manhattan,1202.25,274,380,Wednesday
+2023-04-05,8,Hell's Kitchen,1108.3,250,356,Wednesday
+2023-04-06,3,Astoria,1002.95,227,318,Thursday
+2023-04-06,5,Lower Manhattan,1080.25,245,346,Thursday
+2023-04-06,8,Hell's Kitchen,1167.0,267,389,Thursday
+2023-04-07,3,Astoria,1138.6,262,363,Friday
+2023-04-07,5,Lower Manhattan,1014.75,202,280,Friday
+2023-04-07,8,Hell's Kitchen,1529.45,338,490,Friday
+2023-04-08,3,Astoria,1631.93,316,444,Saturday
+2023-04-08,5,Lower Manhattan,1513.35,302,440,Saturday
+2023-04-08,8,Hell's Kitchen,1427.78,315,443,Saturday
+2023-04-09,3,Astoria,1192.18,254,320,Sunday
+2023-04-09,5,Lower Manhattan,1465.3,264,377,Sunday
+2023-04-09,8,Hell's Kitchen,1431.4,330,460,Sunday
+2023-04-10,3,Astoria,1355.45,288,416,Monday
+2023-04-10,5,Lower Manhattan,1453.8,314,445,Monday
+2023-04-10,8,Hell's Kitchen,1411.05,311,425,Monday
+2023-04-11,3,Astoria,1295.0,278,411,Tuesday
+2023-04-11,5,Lower Manhattan,1195.83,282,406,Tuesday
+2023-04-11,8,Hell's Kitchen,1362.03,304,420,Tuesday
+2023-04-12,3,Astoria,958.63,203,287,Wednesday
+2023-04-12,5,Lower Manhattan,1512.55,327,476,Wednesday
+2023-04-12,8,Hell's Kitchen,1569.0,337,476,Wednesday
+2023-04-13,3,Astoria,1069.7,259,353,Thursday
+2023-04-13,5,Lower Manhattan,1247.43,257,394,Thursday
+2023-04-13,8,Hell's Kitchen,1797.4,354,547,Thursday
+2023-04-14,3,Astoria,1195.83,223,322,Friday
+2023-04-14,5,Lower Manhattan,1116.96,240,309,Friday
+2023-04-14,8,Hell's Kitchen,1818.46,358,483,Friday
+2023-04-15,3,Astoria,1622.66,326,470,Saturday
+2023-04-15,5,Lower Manhattan,1270.05,285,403,Saturday
+2023-04-15,8,Hell's Kitchen,1229.08,270,372,Saturday
+2023-04-16,3,Astoria,1482.08,327,451,Sunday
+2023-04-16,5,Lower Manhattan,1462.88,327,426,Sunday
+2023-04-16,8,Hell's Kitchen,1555.43,335,461,Sunday
+2023-04-17,3,Astoria,1543.6,315,457,Monday
+2023-04-17,5,Lower Manhattan,1150.05,275,369,Monday
+2023-04-17,8,Hell's Kitchen,1638.45,205,291,Monday
+2023-04-18,3,Astoria,1608.79,322,453,Tuesday
+2023-04-18,5,Lower Manhattan,1164.68,259,352,Tuesday
+2023-04-18,8,Hell's Kitchen,1580.6,329,470,Tuesday
+2023-04-19,3,Astoria,1738.93,349,488,Wednesday
+2023-04-19,5,Lower Manhattan,1130.2,263,364,Wednesday
+2023-04-19,8,Hell's Kitchen,1449.18,309,418,Wednesday
+2023-04-20,3,Astoria,1163.95,289,294,Thursday
+2023-04-20,5,Lower Manhattan,1443.43,279,461,Thursday
+2023-04-20,8,Hell's Kitchen,1317.4,286,422,Thursday
+2023-04-21,3,Astoria,1101.88,213,305,Friday
+2023-04-21,5,Lower Manhattan,1381.65,256,435,Friday
+2023-04-21,8,Hell's Kitchen,1521.85,340,466,Friday
+2023-04-22,3,Astoria,1291.95,278,414,Saturday
+2023-04-22,5,Lower Manhattan,1634.18,294,509,Saturday
+2023-04-22,8,Hell's Kitchen,1035.45,226,315,Saturday
+2023-04-23,3,Astoria,1384.05,296,428,Sunday
+2023-04-23,5,Lower Manhattan,1522.76,275,482,Sunday
+2023-04-23,8,Hell's Kitchen,1414.48,284,396,Sunday
+2023-04-24,3,Astoria,1539.8,347,490,Monday
+2023-04-24,5,Lower Manhattan,1558.9,298,504,Monday
+2023-04-24,8,Hell's Kitchen,1166.75,248,348,Monday
+2023-04-25,3,Astoria,1306.1,301,430,Tuesday
+2023-04-25,5,Lower Manhattan,1664.35,296,529,Tuesday
+2023-04-25,8,Hell's Kitchen,1284.55,266,376,Tuesday
+2023-04-26,3,Astoria,1447.5,321,461,Wednesday
+2023-04-26,5,Lower Manhattan,1684.45,290,518,Wednesday
+2023-04-26,8,Hell's Kitchen,1427.5,304,417,Wednesday
+2023-04-27,3,Astoria,1439.55,317,461,Thursday
+2023-04-27,5,Lower Manhattan,1686.1,318,554,Thursday
+2023-04-27,8,Hell's Kitchen,1301.45,319,462,Thursday
+2023-04-28,3,Astoria,1172.7,270,386,Friday
+2023-04-28,5,Lower Manhattan,1111.15,251,369,Friday
+2023-04-28,8,Hell's Kitchen,1089.95,248,344,Friday
+2023-04-29,3,Astoria,1124.05,252,355,Saturday
+2023-04-29,5,Lower Manhattan,936.9,223,309,Saturday
+2023-04-29,8,Hell's Kitchen,892.55,199,290,Saturday
+2023-04-30,3,Astoria,1275.6,277,386,Sunday
+2023-04-30,5,Lower Manhattan,1165.33,254,384,Sunday
+2023-04-30,8,Hell's Kitchen,1111.4,254,346,Sunday
+2023-05-01,3,Astoria,1657.65,376,533,Monday
+2023-05-01,5,Lower Manhattan,1475.4,327,470,Monday
+2023-05-01,8,Hell's Kitchen,1598.4,347,512,Monday
+2023-05-02,3,Astoria,1758.45,393,564,Tuesday
+2023-05-02,5,Lower Manhattan,1276.5,289,414,Tuesday
+2023-05-02,8,Hell's Kitchen,1590.55,358,517,Tuesday
+2023-05-03,3,Astoria,1760.45,402,567,Wednesday
+2023-05-03,5,Lower Manhattan,1401.65,317,453,Wednesday
+2023-05-03,8,Hell's Kitchen,1552.5,357,503,Wednesday
+2023-05-04,3,Astoria,1709.85,385,547,Thursday
+2023-05-04,5,Lower Manhattan,1431.3,321,469,Thursday
+2023-05-04,8,Hell's Kitchen,1448.55,323,467,Thursday
+2023-05-05,3,Astoria,1726.65,387,554,Friday
+2023-05-05,5,Lower Manhattan,1528.65,353,490,Friday
+2023-05-05,8,Hell's Kitchen,1445.7,322,463,Friday
+2023-05-06,3,Astoria,1293.05,291,414,Saturday
+2023-05-06,5,Lower Manhattan,1479.0,337,472,Saturday
+2023-05-06,8,Hell's Kitchen,1433.1,327,478,Saturday
+2023-05-07,3,Astoria,1416.6,324,452,Sunday
+2023-05-07,5,Lower Manhattan,1168.55,251,357,Sunday
+2023-05-07,8,Hell's Kitchen,1957.55,437,635,Sunday
+2023-05-08,3,Astoria,1967.68,391,546,Monday
+2023-05-08,5,Lower Manhattan,1869.15,399,588,Monday
+2023-05-08,8,Hell's Kitchen,1767.38,396,560,Monday
+2023-05-09,3,Astoria,1362.11,313,387,Tuesday
+2023-05-09,5,Lower Manhattan,1822.66,351,480,Tuesday
+2023-05-09,8,Hell's Kitchen,1916.2,430,608,Tuesday
+2023-05-10,3,Astoria,1716.9,380,550,Wednesday
+2023-05-10,5,Lower Manhattan,1596.8,361,507,Wednesday
+2023-05-10,8,Hell's Kitchen,1942.63,422,586,Wednesday
+2023-05-11,3,Astoria,1395.0,313,443,Thursday
+2023-05-11,5,Lower Manhattan,1549.75,350,507,Thursday
+2023-05-11,8,Hell's Kitchen,1905.31,404,562,Thursday
+2023-05-12,3,Astoria,1175.08,254,362,Friday
+2023-05-12,5,Lower Manhattan,1609.65,375,548,Friday
+2023-05-12,8,Hell's Kitchen,1896.4,411,583,Friday
+2023-05-13,3,Astoria,1299.85,315,439,Saturday
+2023-05-13,5,Lower Manhattan,1899.08,388,594,Saturday
+2023-05-13,8,Hell's Kitchen,2312.6,445,684,Saturday
+2023-05-14,3,Astoria,1482.0,293,417,Sunday
+2023-05-14,5,Lower Manhattan,1590.94,354,461,Sunday
+2023-05-14,8,Hell's Kitchen,1979.71,424,561,Sunday
+2023-05-15,3,Astoria,2180.88,447,630,Monday
+2023-05-15,5,Lower Manhattan,1611.45,367,500,Monday
+2023-05-15,8,Hell's Kitchen,1592.65,342,480,Monday
+2023-05-16,3,Astoria,2042.15,450,623,Tuesday
+2023-05-16,5,Lower Manhattan,1684.2,370,493,Tuesday
+2023-05-16,8,Hell's Kitchen,1815.78,399,541,Tuesday
+2023-05-17,3,Astoria,1942.5,398,566,Wednesday
+2023-05-17,5,Lower Manhattan,1684.15,369,510,Wednesday
+2023-05-17,8,Hell's Kitchen,1791.35,247,359,Wednesday
+2023-05-18,3,Astoria,1965.94,397,566,Thursday
+2023-05-18,5,Lower Manhattan,1668.2,376,510,Thursday
+2023-05-18,8,Hell's Kitchen,1949.33,419,583,Thursday
+2023-05-19,3,Astoria,2184.7,448,644,Friday
+2023-05-19,5,Lower Manhattan,1564.35,361,497,Friday
+2023-05-19,8,Hell's Kitchen,1908.83,405,561,Friday
+2023-05-20,3,Astoria,1798.73,416,423,Saturday
+2023-05-20,5,Lower Manhattan,1837.4,357,602,Saturday
+2023-05-20,8,Hell's Kitchen,1883.15,393,568,Saturday
+2023-05-21,3,Astoria,1568.78,295,418,Sunday
+2023-05-21,5,Lower Manhattan,1716.95,322,544,Sunday
+2023-05-21,8,Hell's Kitchen,2085.08,436,605,Sunday
+2023-05-22,3,Astoria,1773.15,390,582,Monday
+2023-05-22,5,Lower Manhattan,2257.06,407,705,Monday
+2023-05-22,8,Hell's Kitchen,1510.95,320,442,Monday
+2023-05-23,3,Astoria,1653.1,359,525,Tuesday
+2023-05-23,5,Lower Manhattan,1753.88,322,572,Tuesday
+2023-05-23,8,Hell's Kitchen,1835.93,394,544,Tuesday
+2023-05-24,3,Astoria,1889.65,422,605,Wednesday
+2023-05-24,5,Lower Manhattan,1968.6,368,633,Wednesday
+2023-05-24,8,Hell's Kitchen,1533.2,314,444,Wednesday
+2023-05-25,3,Astoria,1628.15,369,528,Thursday
+2023-05-25,5,Lower Manhattan,2005.3,353,629,Thursday
+2023-05-25,8,Hell's Kitchen,1597.4,321,456,Thursday
+2023-05-26,3,Astoria,1826.65,409,591,Friday
+2023-05-26,5,Lower Manhattan,1967.0,343,619,Friday
+2023-05-26,8,Hell's Kitchen,1507.3,337,451,Friday
+2023-05-27,3,Astoria,1661.05,374,540,Saturday
+2023-05-27,5,Lower Manhattan,2242.85,403,693,Saturday
+2023-05-27,8,Hell's Kitchen,1655.25,406,582,Saturday
+2023-05-28,3,Astoria,1612.85,372,531,Sunday
+2023-05-28,5,Lower Manhattan,1461.05,328,467,Sunday
+2023-05-28,8,Hell's Kitchen,1264.75,299,404,Sunday
+2023-05-29,3,Astoria,1637.1,363,516,Monday
+2023-05-29,5,Lower Manhattan,1197.25,286,391,Monday
+2023-05-29,8,Hell's Kitchen,1125.15,257,363,Monday
+2023-05-30,3,Astoria,1670.95,382,539,Tuesday
+2023-05-30,5,Lower Manhattan,1732.03,333,500,Tuesday
+2023-05-30,8,Hell's Kitchen,1432.5,307,426,Tuesday
+2023-05-31,3,Astoria,1671.11,367,512,Wednesday
+2023-05-31,5,Lower Manhattan,1649.27,320,500,Wednesday
+2023-05-31,8,Hell's Kitchen,1363.75,295,416,Wednesday
+2023-06-01,3,Astoria,1794.85,408,583,Thursday
+2023-06-01,5,Lower Manhattan,1602.95,350,511,Thursday
+2023-06-01,8,Hell's Kitchen,1829.2,392,582,Thursday
+2023-06-02,3,Astoria,1915.45,432,622,Friday
+2023-06-02,5,Lower Manhattan,1439.45,330,465,Friday
+2023-06-02,8,Hell's Kitchen,1701.6,381,555,Friday
+2023-06-03,3,Astoria,1953.5,439,616,Saturday
+2023-06-03,5,Lower Manhattan,1600.35,361,516,Saturday
+2023-06-03,8,Hell's Kitchen,1612.8,360,522,Saturday
+2023-06-04,3,Astoria,1760.9,400,572,Sunday
+2023-06-04,5,Lower Manhattan,1595.35,351,518,Sunday
+2023-06-04,8,Hell's Kitchen,1628.9,363,529,Sunday
+2023-06-05,3,Astoria,1842.45,416,595,Monday
+2023-06-05,5,Lower Manhattan,1537.0,348,487,Monday
+2023-06-05,8,Hell's Kitchen,1531.7,346,495,Monday
+2023-06-06,3,Astoria,1397.1,313,446,Tuesday
+2023-06-06,5,Lower Manhattan,1590.4,366,515,Tuesday
+2023-06-06,8,Hell's Kitchen,1611.4,362,533,Tuesday
+2023-06-07,3,Astoria,1555.55,355,494,Wednesday
+2023-06-07,5,Lower Manhattan,1282.05,275,390,Wednesday
+2023-06-07,8,Hell's Kitchen,2045.5,453,652,Wednesday
+2023-06-08,3,Astoria,2168.68,414,574,Thursday
+2023-06-08,5,Lower Manhattan,1954.8,407,591,Thursday
+2023-06-08,8,Hell's Kitchen,2028.11,448,623,Thursday
+2023-06-09,3,Astoria,1518.48,341,433,Friday
+2023-06-09,5,Lower Manhattan,2159.08,392,556,Friday
+2023-06-09,8,Hell's Kitchen,2189.6,491,693,Friday
+2023-06-10,3,Astoria,1749.45,375,538,Saturday
+2023-06-10,5,Lower Manhattan,1886.6,396,558,Saturday
+2023-06-10,8,Hell's Kitchen,1990.7,439,612,Saturday
+2023-06-11,3,Astoria,1703.65,368,524,Sunday
+2023-06-11,5,Lower Manhattan,1712.43,385,543,Sunday
+2023-06-11,8,Hell's Kitchen,2002.53,455,636,Sunday
+2023-06-12,3,Astoria,1244.6,273,394,Monday
+2023-06-12,5,Lower Manhattan,1977.5,436,636,Monday
+2023-06-12,8,Hell's Kitchen,2106.6,453,644,Monday
+2023-06-13,3,Astoria,1439.45,341,480,Tuesday
+2023-06-13,5,Lower Manhattan,2215.11,447,689,Tuesday
+2023-06-13,8,Hell's Kitchen,2534.8,493,769,Tuesday
+2023-06-14,3,Astoria,1588.55,303,425,Wednesday
+2023-06-14,5,Lower Manhattan,1751.36,393,511,Wednesday
+2023-06-14,8,Hell's Kitchen,2496.61,498,672,Wednesday
+2023-06-15,3,Astoria,2373.21,468,661,Thursday
+2023-06-15,5,Lower Manhattan,1644.85,377,518,Thursday
+2023-06-15,8,Hell's Kitchen,1788.18,392,549,Thursday
+2023-06-16,3,Astoria,2229.8,483,679,Friday
+2023-06-16,5,Lower Manhattan,1805.68,412,548,Friday
+2023-06-16,8,Hell's Kitchen,1975.95,436,597,Friday
+2023-06-17,3,Astoria,2072.65,435,618,Saturday
+2023-06-17,5,Lower Manhattan,1724.85,391,537,Saturday
+2023-06-17,8,Hell's Kitchen,2320.1,273,397,Saturday
+2023-06-18,3,Astoria,2044.88,437,605,Sunday
+2023-06-18,5,Lower Manhattan,1805.28,402,537,Sunday
+2023-06-18,8,Hell's Kitchen,2175.93,451,638,Sunday
+2023-06-19,3,Astoria,2546.43,489,688,Monday
+2023-06-19,5,Lower Manhattan,1733.4,400,546,Monday
+2023-06-19,8,Hell's Kitchen,2124.08,454,624,Monday
+2023-06-20,3,Astoria,1679.38,434,440,Tuesday
+2023-06-20,5,Lower Manhattan,1929.63,372,629,Tuesday
+2023-06-20,8,Hell's Kitchen,1885.65,396,575,Tuesday
+2023-06-21,3,Astoria,1614.25,317,438,Wednesday
+2023-06-21,5,Lower Manhattan,1890.3,351,586,Wednesday
+2023-06-21,8,Hell's Kitchen,2303.83,485,671,Wednesday
+2023-06-22,3,Astoria,1912.05,407,613,Thursday
+2023-06-22,5,Lower Manhattan,2145.95,399,688,Thursday
+2023-06-22,8,Hell's Kitchen,1557.1,341,469,Thursday
+2023-06-23,3,Astoria,1864.4,409,594,Friday
+2023-06-23,5,Lower Manhattan,1933.38,356,631,Friday
+2023-06-23,8,Hell's Kitchen,1984.08,402,570,Friday
+2023-06-24,3,Astoria,2117.55,472,678,Saturday
+2023-06-24,5,Lower Manhattan,2097.75,383,657,Saturday
+2023-06-24,8,Hell's Kitchen,1690.8,359,511,Saturday
+2023-06-25,3,Astoria,1740.7,396,568,Sunday
+2023-06-25,5,Lower Manhattan,2244.95,402,707,Sunday
+2023-06-25,8,Hell's Kitchen,1769.2,376,527,Sunday
+2023-06-26,3,Astoria,1975.1,432,635,Monday
+2023-06-26,5,Lower Manhattan,2154.7,376,674,Monday
+2023-06-26,8,Hell's Kitchen,1746.1,387,528,Monday
+2023-06-27,3,Astoria,1861.55,421,598,Tuesday
+2023-06-27,5,Lower Manhattan,2437.4,442,770,Tuesday
+2023-06-27,8,Hell's Kitchen,1676.7,414,594,Tuesday
+2023-06-28,3,Astoria,1758.1,393,580,Wednesday
+2023-06-28,5,Lower Manhattan,1524.95,343,492,Wednesday
+2023-06-28,8,Hell's Kitchen,1445.85,334,459,Wednesday
+2023-06-29,3,Astoria,1852.75,410,585,Thursday
+2023-06-29,5,Lower Manhattan,1299.45,305,424,Thursday
+2023-06-29,8,Hell's Kitchen,1298.55,294,420,Thursday
+2023-06-30,3,Astoria,1807.65,404,577,Friday
+2023-06-30,5,Lower Manhattan,1768.74,348,535,Friday
+2023-06-30,8,Hell's Kitchen,1904.93,343,478,Friday
