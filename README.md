@@ -94,33 +94,76 @@ This final query produced the data used to train the model. I saved and exported
 
 To forecast daily coffee sales, I built a linear regression model in Python (`model_training.py`) following a structured machine learning pipeline.
 
+---
 ### A) Data Preparation & Feature Encoding
+---
 
-* Loaded the cleaned dataset `clean_coffee_shop_sales.csv`.
+Loaded the cleaned dataset `clean_coffee_shop_sales.csv`:
 
-* Converted the `date` column to datetime format for proper alignment and tracking.
+```python
+data_path = os.path.join("..", "data", "clean_coffee_shop_sales.csv")
+df = pd.read_csv(data_path)
+```
 
-* Applied one-hot encoding to the categorical features `store_location` and `day_of_week` to make them usable in the model.
+Converted the `date` column to datetime format for proper alignment and tracking:
 
-* Selected `num_transactions`, `total_items_sold`, and the encoded features as predictors (`X`), with `total_sales` as the target variable (`y`).
+```python
+df['date'] = pd.to_datetime(df['date'])
+```
 
+Applied one-hot encoding to the categorical features `store_location` and `day_of_week` to make them usable in the model:
+ 
+ ```python
+if 'day_of_week' in df.columns:
+    df = pd.get_dummies(df, columns=['day_of_week'], drop_first=True)
+
+if 'store_location' in df.columns:
+    df = pd.get_dummies(df, columns=['store_location'], drop_first=True)
+```
+
+Selected `num_transactions`, `total_items_sold`, and the encoded features as predictors (`X`), with `total_sales` as the target variable (`y`):
+
+ ```python
+X = df.drop(columns=['date', 'store_id', 'total_sales'])
+y = df['total_sales']
+```
+
+---
 ### B) Model Training & Evaluation
+---
 
-* Split the data into training (80%) and testing (20%) sets.
+Split the data into training (80%) and testing (20%) sets:
+ ```python
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42)
+```
 
-* Trained a Linear Regression model using `scikit-learn`.
+Trained a Linear Regression model using `scikit-learn`:
 
-* Evaluated the model with the following performance metrics:
+ ```python
+model = LinearRegression()
+model.fit(X_train, y_train)
+```
 
-     - R² Score: `~0.97` — indicating the model explains 97% of the variance in sales.
+Evaluated the model with the following performance metrics:
 
-     - Mean Squared Error: `~5774.12`
+   - R² Score: `~0.97` — indicating the model explains 97% of the variance in sales.
 
-     - Mean Absolute Error: `~60.8` (manually reviewed in Power BI)
+   - Mean Squared Error: `~5774.12`
 
+   - Mean Absolute Error: `~60.8` (manually reviewed in Power BI)
+
+```python
+predictions = model.predict(X_test)
+mse = mean_squared_error(y_test, predictions)
+r2 = r2_score(y_test, predictions)
+```
+
+---
 ### C) Output & Reporting
+---
 
-* Generated `predicted_sales.csv`, which includes:
+Generated `predicted_sales.csv`, which includes:
 
    - Actual sales
    - Predicted sales
@@ -128,12 +171,35 @@ To forecast daily coffee sales, I built a linear regression model in Python (`mo
    - Absolute Error
    - Associated `date`, `store_location`, and `day_of_week`
 
-* Generated `model_metrics.csv`, which includes:
+```python
+results = X_test.copy()
+results['date'] = date_test.values
+results['actual_sales'] = y_test.values
+results['predicted_sales'] = predictions
+results['prediction_error'] = results['actual_sales'] - results['predicted_sales']
+results['abs_error'] = results['prediction_error'].abs()
+results['store_location'] = store_location_test.values
+results['day_of_week'] = day_of_week_test.values
+```
+
+Generated `model_metrics.csv`, which includes:
    
    - R² Score
    - Mean Squared Error
+   
 
-* Exported both files to the project’s output folder and directly to a OneDrive directory for Power BI integration.
+Exported both files to the project’s output folder and directly to a OneDrive directory for Power BI integration:
+
+```python
+output_dir = os.path.join("..", "output")
+os.makedirs(output_dir, exist_ok=True)
+
+output_file = "predicted_sales.csv"
+metrics_file = "model_metrics.csv"
+
+results.to_csv(os.path.join(output_dir, output_file), index=False)
+metrics_df.to_csv(os.path.join(output_dir, metrics_file), index=False)
+```
 
 ## 6. Interactive Dashboard (Power BI)
 
