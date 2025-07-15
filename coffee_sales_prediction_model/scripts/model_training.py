@@ -67,7 +67,6 @@ results['abs_error'] = results['prediction_error'].abs()
 results['store_location'] = store_location_test.values
 results['day_of_week'] = day_of_week_test.values
 
-
 # Define Export Paths
 output_dir = os.path.join("..", "output")
 os.makedirs(output_dir, exist_ok=True)
