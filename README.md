@@ -1,10 +1,13 @@
 # Coffee Sales Prediction Model – Walkthrough & Thought Process
 
+## Usage Guide
+
+To try the model for yourself, follow the step-by-step instructions here:  
+[How to Use the Model](coffee_sales_prediction_model/usage_guide.md)
+
 ## 1. Objective
 
 The goal of this project is to develop a predictive model that forecasts daily sales for Maven Roasters (a fictional coffee shop with three NYC locations) using historical transaction data. The project showcases data analytics skills across SQL, Python, and Power BI.
-
----
 
 ## 2. Dataset
 
@@ -24,8 +27,6 @@ I explored Kaggle to find a dataset suitable for building a predictive model. I 
   * `product_category` : Description of the product category
   * `product_type` : Description of the product type
   * `product_detail` : Description of the product detail
-
----
 
 ## 3. Data Cleaning & Transformation (SQL)
 
@@ -89,8 +90,6 @@ This final query produced the data used to train the model. I saved and exported
   * `total_items_sold` : Number of items sold
   * `day_of_week` : Day of the week
     
----
-
 ## 4. Predictive Model (Python)
 
 To forecast daily coffee sales, I built a linear regression model in Python (`model_training.py`) following a structured machine learning pipeline.
@@ -136,8 +135,6 @@ To forecast daily coffee sales, I built a linear regression model in Python (`mo
 
 * Exported both files to the project’s output folder and directly to a OneDrive directory for Power BI integration.
 
----
-
 ## 6. Power BI Dashboard
 
 Created a dynamic dashboard (`coffee_sales_dashboard.pbix`) with:
@@ -150,15 +147,11 @@ Created a dynamic dashboard (`coffee_sales_dashboard.pbix`) with:
 
 ![Dashbaord Preview](coffee_sales_prediction_model/visuals/coffee_dashboard.PNG)
 
----
-
 ## 7. Challenges
 
 * This project uses a linear regression model, which works best with straight-line patterns. It might not fully capture complex factors like special events, holidays, or sudden changes in customer behavior
 * Missing external data such as holidays, wather, or specials events limits the model accuracy
 * The model must be retrained regularly to reflect new data and trends
-
----
 
 ## 8. Learning
 
@@ -169,8 +162,6 @@ This project demonstrates:
 * Power BI visualization for business storytelling and dashboards
 
 It highlights both technical skills and the ability to turn data into actionable insights.
-
----
 
 ## 9. Next Steps
 
