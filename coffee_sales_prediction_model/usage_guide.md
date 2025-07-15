@@ -2,8 +2,6 @@
 
 This usage guide will help you run the coffee sales predictive model. You will download the project, run the Python script, and view results using Power BI.
 
----
-
 ## Steps
 
 1. **Download the project**  
