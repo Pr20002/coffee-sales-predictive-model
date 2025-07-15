@@ -135,7 +135,7 @@ To forecast daily coffee sales, I built a linear regression model in Python (`mo
 
 * Exported both files to the project’s output folder and directly to a OneDrive directory for Power BI integration.
 
-## 6. Power BI Dashboard
+## 6. Interactive Dashboard (Power BI)
 
 Created a dynamic dashboard (`coffee_sales_dashboard.pbix`) with:
 
